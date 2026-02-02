@@ -1,0 +1,113 @@
+ .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 90vh;
+
+        }
+
+        .form {
+          background: #1b263b;
+          padding: 40px;
+          border-radius: 20px;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          width: 350px;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          color: white;
+        }
+
+        .form h2 {
+          text-align: center;
+          margin-bottom: 10px;
+          color: #00aaff;
+        }
+
+        input {
+          padding: 10px;
+          border-radius: 8px;
+          border: none;
+          outline: none;
+          background: #415a77;
+          color: white;
+          font-size: 14px;
+        }
+
+        input::placeholder {
+          color: #bcd4e6;
+        }
+
+        button {
+          background: #00aaff;
+          color: white;
+          padding: 10px;
+          border: none;
+          border-radius: 8px;
+          cursor: pointer;
+          transition: background 0.3s;
+          font-weight: bold;
+        }
+
+        button:hover {
+          background: #0090e0;
+        }
+
+        .alternar {
+          text-align: center;
+          font-size: 14px;
+          color: #bcd4e6;
+        }
+
+        .alternar span {
+          color: #00aaff;
+          cursor: pointer;
+          text-decoration: underline;
+        }
+
+        .msg-sucesso {
+          color: #4ef037;
+          text-align: center;
+        }
+
+        .msg-erro {
+          color: #ff6b6b;
+          text-align: center;
+        }
+
+.password-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding-right: 42px; /* espaço pro botão */
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none !important;
+  border: none !important;
+  cursor: pointer;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.7;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.password-toggle:hover {
+  opacity: 1;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.password-toggle img {
+  width: 22px;
+  height: 22px;
+  filter: invert(1); /* deixa branco no tema escuro */
+}

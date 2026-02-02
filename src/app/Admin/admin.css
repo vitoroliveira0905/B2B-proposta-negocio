@@ -1,0 +1,247 @@
+/* Contêiner geral para centralizar tudo */
+.page-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+/* Painel administrativo */
+.admin-container {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  width: 100%;
+  max-width: 900px;
+  background: #1b263b;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.admin-container h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #00aaff;
+}
+
+.admin-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: stretch;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Inputs elegantes */
+.admin-container input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+  color: #e0f2ff;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  font-family: "Segoe UI", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.admin-container input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.admin-container input:hover {
+  border-color: #00aaff;
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.admin-container input:focus {
+  outline: none;
+  border-color: #00aaff;
+  background: rgba(0, 170, 255, 0.15);
+  box-shadow: 0 0 8px rgba(0, 170, 255, 0.4);
+}
+
+/* Botão moderno */
+.admin-container button {
+  margin-top: 10px;
+  background: linear-gradient(135deg, #00aaff, #0078ff);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.admin-container button:hover {
+  transform: translateY(-2px);
+  background: linear-gradient(135deg, #00cfff, #0096ff);
+  box-shadow: 0 4px 12px rgba(0, 170, 255, 0.4);
+}
+
+.admin-container button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.admin-container h3 {
+  margin-top: 20px;
+  color: #00aaff;
+  border-bottom: 2px solid #00aaff;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.admin-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.admin-container li {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: box-shadow 0.2s ease;
+}
+
+.admin-container li:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.admin-container li button {
+  background: #dc2626;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.admin-container li button:hover {
+  background: #b91c1c;
+}
+
+.acao {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.table th,
+.table td {
+  padding: 10px 15px;
+  vertical-align: middle; /* Alinha conteúdo verticalmente ao centro */
+}
+
+.table th {
+  background: none !important;
+  color: #00aaff;
+  border-bottom: 1px solid #004c72;
+}
+
+.table td {
+  background: none !important;
+  color: #e0f2ff;
+  border-bottom: 1px solid #004c72;
+}
+
+/* Ajusta as imagens dentro da tabela */
+.table td img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+/* Linha da tabela: realce no hover */
+.table tr:hover {
+  background-color: rgba(0, 170, 255, 0.1);
+}
+
+/* Célula das ações */
+.acao,
+.botoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px; /* espaçamento entre os botões */
+}
+
+/* Botões da tabela */
+.botoes button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00aaff;
+  border: none;
+  padding: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.botoes button:hover {
+  transform: scale(1.1);
+  background: #0080c0;
+}
+
+/* Ícones dos botões */
+.botoes img {
+  width: 20px;
+  height: 20px;
+  filter: invert();
+}
+
+/* Específico pro botão de exclusão */
+.botoes button:last-child {
+  background: #001a66 !important;
+}
+
+.botoes button:last-child:hover {
+  background: #000f40 !important;
+}
+
+.admin-container select {
+
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(6px);
+  color: #00aaff;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  font-family: "Segoe UI", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+
+.admin-container select:focus {
+  outline: none;
+  border-color: #00aaff;
+}

@@ -1,0 +1,177 @@
+.produto-detalhe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 20px;
+  min-height: 100vh;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+
+}
+
+.produto-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  max-width: 1000px;
+  background: rgba(30, 30, 30, 0.9);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 102, 255, 0.2);
+
+}
+
+.erro-produto {
+  margin-top: 300px;
+}
+
+.produto-img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.produto-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.produto-descricao {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin: 10px 0;
+  color: #ccc;
+}
+
+.produto-preco {
+  font-size: 1.8rem;
+  color: #00ffc3;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.produto-tipo {
+  margin-top: 5px;
+  color: #bbb;
+}
+
+.btn-voltar {
+  margin-top: 25px;
+  background: #6bc5ff;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+  width: 100%;
+}
+
+.btn-voltar:hover {
+  background: #0099ff;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .produto-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .produto-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Seção de produtos relacionados */
+.relacionados {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.relacionados h2 {
+  color: #6bc5ff;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px #6bc5ff;
+}
+
+.relacionados-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.relacionado-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* distribui topo e base */
+  height: 100%;
+  /* garante alinhamento uniforme */
+}
+
+.relacionado-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #6bc5ff;
+}
+
+.relacionado-card img {
+  width: 100%;
+  border-radius: 8px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.relacionado-card h3 {
+  margin-top: 10px;
+  color: #6bc5ff;
+  min-height: 50px;
+  /* mantém títulos alinhados */
+}
+
+.relacionado-card .preco {
+  color: #00ffb0;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+/* Link "ver mais" */
+.produto-card .vermais {
+  margin-top: auto;
+  /* empurra o "ver mais" para o final */
+  color: #6bc5ff;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.3s;
+  display: inline-block;
+}
+
+.produto-card .vermais:hover {
+  text-shadow: 0 0 5px #6bc5ff;
+}
+
+.botoes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.bot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}

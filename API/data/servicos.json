@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nome": "Robôs de Soldagem",
+    "tipo": "Solda",
+    "descricao": "Alta precisão e repetibilidade para processos MIG, MAG e TIG, garantindo soldas uniformes e seguras.",
+    "imagem": "https://www.tectronix.com.br/imagens/main/produtos/robo-de-solda-2/slide3/2.png"
+  },
+  {
+    "id": 2,
+    "nome": "Robôs de Pintura",
+    "tipo": "Pintura",
+    "descricao": "Automação da pintura com controle perfeito de espessura, redução de desperdício e acabamento impecável.",
+    "imagem": "https://img.directindustry.com/pt/images_di/photo-mg/6184-14444017.jpg"
+  },
+  {
+    "id": 3,
+    "nome": "Robôs de Montagem",
+    "tipo": "Embalagem",
+    "descricao": "Perfeitos para linhas de montagem com alta produtividade e consistência em componentes delicados.",
+    "imagem": "https://www.kuka.com/-/media/kuka-corporate/images/products/robots/kr-cybertech/cybertech_2.jpg?rev=cedad6393b2d4448b8387a3db004dce7&w=1400&hash=10C4D10EF83D844E1FFFFC757E73AEFE"
+  },
+  {
+    "id": 4,
+    "nome": "Robôs de Manipulação",
+    "tipo": "Manipulador",
+    "descricao": "Ideal para movimentar caixas e produtos pesados, otimizando espaço e tempo na linha de produção.",
+    "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSahPWvA6iw8atDwpzNuOb_S6obh98MnxKzw&s"
+  }
+]

@@ -1,0 +1,185 @@
+.sobre-container {
+  color: #fff;
+  background: #0b0b0f;
+  padding: 50px 10%;
+  line-height: 1.6;
+
+}
+
+.sobre-intro {
+      margin-top: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.sobre-texto h1 {
+  font-size: 2.5rem;
+  color: #00aaff;
+}
+
+.sobre-texto p {
+  font-size: 1.1rem;
+  margin-top: 10px;
+  color: #ccc;
+}
+
+.sobre-img {
+  width: 45%;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 170, 255, 0.3);
+}
+
+.sobre-historia,
+.sobre-equipe,
+.sobre-diferenciais,
+.sobre-contato {
+  margin-bottom: 70px;
+}
+
+.sobre-historia h2,
+.sobre-equipe h2,
+.sobre-diferenciais h2,
+.sobre-contato h2 {
+  color: #00aaff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-left: 4px solid #00aaff;
+  padding-left: 10px;
+}
+
+.sobre-mvv {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 80px 0;
+}
+
+.mvv-card {
+  flex: 1;
+  background: #10141b;
+  border: 1px solid #1f2a3a;
+  border-radius: 15px;
+  padding: 25px;
+  transition: 0.3s;
+}
+
+.mvv-card:hover {
+  border-color: #00aaff;
+  transform: translateY(-5px);
+}
+
+.mvv-card h3 {
+  color: #00aaff;
+  margin-bottom: 10px;
+}
+
+.mvv-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.mvv-card li {
+  margin-bottom: 5px;
+  color: #ccc;
+}
+
+.equipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.membro {
+  background: #10141b;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.membro:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(0, 170, 255, 0.3);
+}
+
+.membro img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.membro h4 {
+  color: #00aaff;
+}
+
+.sobre-diferenciais {
+  margin-bottom: 70px;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+.sobre-diferenciais h2 {
+  color: #00aaff;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  border-left: 4px solid #00aaff;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.diferenciais-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.diferencial-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 25px;
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.diferencial-card:hover {
+  background: rgba(0, 170, 255, 0.1);
+  transform: translateY(-5px);
+  border-color: #00aaff;
+  box-shadow: 0 4px 15px rgba(0, 170, 255, 0.15);
+}
+
+.diferencial-card h3 {
+  color: #00aaff;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.diferencial-card p {
+  color: #ddd;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+
+.btn-contato {
+  display: inline-block;
+  margin-top: 20px;
+  background: #00aaff;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn-contato:hover {
+  background: #0077cc;
+}

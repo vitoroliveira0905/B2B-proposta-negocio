@@ -1,0 +1,141 @@
+.footer {
+  background: radial-gradient(circle at top left, #0d1117 30%, #080a0c 90%);
+  color: #e2e2e2;
+  padding: 2rem 4rem;
+  border-top: 1px solid rgba(0, 195, 255, 0.15);
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.footer-title span {
+  color: #6bc5ff;
+}
+
+.footer-left p {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-top: 0.4rem;
+}
+
+.footer-center {
+  display: flex;
+  gap: 1.8rem;
+  font-size: 0.95rem;
+}
+
+.footer-center a {
+  color: #c9c9c9;
+  text-decoration: none;
+  transition: 0.3s ease;
+  position: relative;
+}
+
+.footer-center a::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #6bc5ff;
+  transition: width 0.3s;
+}
+
+.footer-center a:hover {
+  color: #6bc5ff;
+}
+
+.footer-center a:hover::after {
+  width: 100%;
+}
+
+.footer-right {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease, box-shadow 0.3s;
+  border-radius: 50%;
+}
+
+.social-icon:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 0 10px #0099ff60;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 10, 10, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(6px);
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #111418;
+  padding: 2rem;
+  border-radius: 16px;
+  max-width: 600px;
+  width: 90%;
+  color: #e8e8e8;
+  box-shadow: 0 0 20px rgba(0, 195, 255, 0.25);
+  border: 1px solid rgba(0, 195, 255, 0.3);
+  animation: fadeIn 0.3s ease;
+}
+
+.close {
+  float: right;
+  font-size: 1.6rem;
+  color: #6bc5ff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.close:hover {
+  transform: scale(1.2);
+  color: #fff;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}

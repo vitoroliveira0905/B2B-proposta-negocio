@@ -1,0 +1,20 @@
+{
+  "name": "siteempresa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.546.0",
+    "next": "15.5.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "reatc": "^0.0.1-security",
+    "sweetalert2": "^11.26.3"
+  }
+}

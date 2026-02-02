@@ -1,0 +1,301 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  transition: all 0.4s ease;
+  z-index: 999;
+  background-color: rgba(17, 17, 17, 0.95);
+  backdrop-filter: blur(6px);
+}
+
+.navbar.top {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.navbar.hidden {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+.navbar.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Logo */
+.logo {
+  width: 160px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+/* Menu */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  list-style: none;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.menu li {
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.menu li:hover {
+  color: #3b82f6;
+}
+
+.menu a{
+  color: white;            
+  text-decoration: none;
+  position: relative;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+/* Botão azul */
+.ALL {
+  background-color: #3b82f6;
+  padding: 8px 15px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.ALL:hover {
+  background-color: #2563eb;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+/* Botão do dropdown */
+.dropdown-button {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: inherit;
+  font-weight: inherit;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s;
+}
+
+.dropdown-button:hover {
+  color: #3b82f6;
+}
+
+/* Setinha */
+.arrow {
+  transition: transform 0.3s ease;
+}
+.arrow.open {
+  transform: rotate(180deg);
+}
+
+/* Menu suspenso */
+.dropdown-menu {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  background-color: #111;
+  border: 1px solid #3b82f6;
+  border-radius: 8px;
+  padding: 10px 0;
+  min-width: 160px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  animation: fadeIn 0.25s ease forwards;
+  z-index: 2000;
+  display: none;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-menu p {
+  padding: 10px 20px;
+  color: #fff;
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
+.dropdown-menu p:hover {
+  background-color: #3b82f6;
+}
+
+/* Botão mobile */
+.mobile-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 90px;
+  }
+
+  .mobile-toggle {
+    display: block;
+  }
+
+  .menu {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: rgba(17, 17, 17, 0.95);
+    padding: 20px 0;
+    transform: translateY(-200%);
+    transition: transform 0.4s ease;
+  }
+
+  .menu.open {
+    margin-top: 38px;
+    transform: translateY(0);
+  }
+
+  .dropdown-menu {
+    position: static;
+    border: none;
+    box-shadow: none;
+    background: none;
+    padding: 0;
+  }
+
+  .dropdown-menu p {
+    padding-left: 30px;
+  }
+}
+
+.empresa-menu {
+  position: relative;
+  cursor: pointer;
+}
+
+.submenu {
+
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: rgba(30, 41, 59, 0.95); /* fundo escuro translúcido */
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 12px 0;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  min-width: 160px;
+  z-index: 999;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  transform: translateY(-10px);
+  pointer-events: none;
+}
+
+/* Aparece suavemente no hover */
+.empresa-menu:hover .submenu {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  z-index: 1000;
+}
+
+/* Links ou botões dentro */
+.submenu button,
+.submenu a {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  color: #f1f5f9;
+  font-size: 0.95rem;
+  padding: 10px 18px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s ease, color 0.2s ease;
+  border-radius: 6px;
+   z-index: 1000;
+}
+
+/* Hover moderno */
+.submenu button:hover,
+.submenu a:hover {
+  background: linear-gradient(90deg, #2563eb, #1d4ed8);
+  color: #fff;
+   z-index: 1000;
+}
+
+/* Primeira opção pode ser destacada */
+.submenu button:first-child {
+  font-weight: 600;
+  color: #93c5fd;
+   z-index: 1000;
+}
+
+/* Pequeno triângulo indicando o menu */
+.empresa-menu {
+  position: relative;
+}
+
+.empresa-menu:hover .submenu::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  right: 20px;
+  width: 12px;
+  height: 12px;
+  background: rgba(30, 41, 59, 0.95);
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  transform: rotate(45deg);
+  z-index: 1000;
+}
+
+.empresa-nome{
+  display: inline-block;
+  filter: hue-rotate(290deg) saturate(500%) brightness(80%);
+}
+

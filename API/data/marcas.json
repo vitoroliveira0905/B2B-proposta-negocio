@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+      "name": "ABB Robotics",
+      "img": "https://assets.robots.com/brands/_800x800_fit_center-center_82_none/ABB-IRB-2400_2024-06-06-201221_uvxv.png?mtime=1717704741",
+      "desc": "Líder global em robótica e automação industrial, conhecida por seus robôs colaborativos e sistemas inteligentes.",
+      "link": "https://new.abb.com/products/robotics"
+    },
+    {
+        "id": 2,
+      "name": "FANUC",
+      "img": "https://robotsdoneright.com/images/FANUC/FANUC-LR-Mate-200id-7l.webp",
+      "desc": "Pioneira japonesa em automação e robôs industriais, com foco em precisão e durabilidade.",
+      "link": "https://www.fanuc.eu/"
+    },
+    {
+        "id": 3,
+      "name": "KUKA Robotics",
+      "img": "https://www.kuka.com/-/media/kuka-corporate/images/products/robots/cta-images/kr-titan.png?rev=-1&w=767&hash=0ED8B1C297DBC5CAE664B33A69AC06FA",
+      "desc": "Fabricante alemã de robôs industriais e soluções para fábricas inteligentes.",
+      "link": "https://www.kuka.com/"
+    },
+    {
+        "id": 4,
+      "name": "Universal Robots",
+      "img": "https://a.storyblok.com/f/169662/1125x1500/d81c866521/png-ur3e_01_r.png",
+      "desc": "Referência em robôs colaborativos (cobots) fáceis de integrar em qualquer ambiente de produção.",
+      "link": "https://www.universal-robots.com/"
+    },
+    {
+        "id": 5,
+      "name": "Yaskawa Motoman",
+      "img": "https://www.no.yaskawa.eu.com/Global%20Assets/MOTOMAN-AR1440_max.png",
+      "desc": "Especialista japonesa em automação industrial, com foco em soldagem e manuseio de materiais.",
+      "link": "https://www.motoman.com/"
+    },
+    {
+        "id": 6,
+      "name": "Mitsubishi Electric",
+      "img": "https://www.eurobots.com.br/media/robot/rv_2fr.png",
+      "desc": "Fabricante japonesa com ampla linha de robôs industriais e sistemas de automação avançados para fábricas inteligentes.",
+      "link": "https://www.mitsubishielectric.com/fa/"
+    }
+  ]

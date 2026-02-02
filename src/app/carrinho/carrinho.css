@@ -1,0 +1,150 @@
+.carrinho-container {
+    background: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+  padding: 40px;
+  color: #e0e6f0;
+  font-family: "Poppins", sans-serif;
+}
+
+.titulo-carrinho {
+    margin-top: 10vh;
+  text-align: center;
+  color: #40a0ff;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-shadow: 0 0 8px #147efb;
+}
+
+.vazio {
+  text-align: center;
+  color: #aaa;
+  font-size: 1.2rem;
+}
+
+.itens-carrinho {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.item-carrinho {
+  display: flex;
+  align-items: center;
+  background: #111827;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(64, 160, 255, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.item-carrinho:hover {
+  transform: translateY(-3px);
+}
+
+.img-produto {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  margin-right: 25px;
+  border-radius: 5px;
+}
+
+.info-produto {
+  flex: 1;
+}
+
+.info-produto h3 {
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.preco {
+  color: #00ff99;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.quantidade {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.quantidade button {
+  background-color: #1e293b;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.remover {
+  background-color: #ff4747;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.remover:hover {
+  background-color: #ff2c2c;
+}
+
+.remover2 {
+  background-color: #ff4747;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 25px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.remover2:hover {
+  background-color: #ff2c2c;
+}
+
+.resumo {
+  max-width: 900px;
+  margin: 30px auto 0;
+  background: #0e1625;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: right;
+  box-shadow: 0 0 12px rgba(20, 126, 251, 0.2);
+}
+
+.resumo h2 {
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+.resumo span {
+  color: #00ff99;
+}
+
+.finalizar {
+  margin-top: 15px;
+  background: linear-gradient(90deg, #147efb, #00c6ff);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  padding: 12px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+  margin-right: 10px;
+}
+
+.finalizar:hover {
+  opacity: 0.85;
+}
