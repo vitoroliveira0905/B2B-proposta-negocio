@@ -155,7 +155,7 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <section className="contato">
+      <section className="contato" >
         <div className="icon-top">
           <div className="icon">
             <img
@@ -195,7 +195,7 @@ export default function Home() {
             <input type="text" name="empresa" placeholder="Nome da empresa (opcional)" />
           </div>
 
-          <div className="form-grupo" id="contato">
+          <div className="form-grupo">
             <label>Mensagem</label>
             <textarea
               name="mensagem"
@@ -205,7 +205,7 @@ export default function Home() {
             ></textarea>
           </div>
 
-          <button type="submit" className="btn-enviar">
+          <button type="submit" className="btn-enviar" id="contato">
             Enviar Mensagem
           </button>
         </form>
