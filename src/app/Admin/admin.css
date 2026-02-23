@@ -271,6 +271,7 @@
   backdrop-filter: blur(8px);
   z-index: 1000;
   animation: fadeIn 0.3s ease;
+  
 }
 
 /* Card Principal */
@@ -285,7 +286,7 @@
   border: 1px solid rgba(0, 195, 255, 0.3);
   position: relative;
   animation: slideUp 0.4s ease-out;
-}
+  }
 
 /* Botão de Fechar */
 .modal-close {

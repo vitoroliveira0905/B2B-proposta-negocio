@@ -173,10 +173,24 @@ export default function Admin() {
             {produtos.map((p) => (
               <tr key={p.id}>
                 <th scope="row">{p.id}</th>
-                <td>{p.nome}</td>
+                <td style={{
+                  maxWidth: "200px",
+                  overflow: "hidden",
+                  textOverflow: "ellipsis",
+                  whiteSpace: "nowrap"
+                }}>
+                  {p.nome}
+                </td>
                 <td>R$ {p.preco}</td>
                 <td>{p.tipo}</td>
-                <td>{p.descricao}</td>
+                <td style={{
+                  maxWidth: "100px",
+                  overflow: "hidden",
+                  textOverflow: "ellipsis",
+                  whiteSpace: "nowrap"
+                }}>
+                  {p.descricao}
+                </td>
                 <td>
                   <img src={p.linkimagem} alt={p.nome} style={{ width: "4vw" }} />
                 </td>
@@ -225,14 +239,14 @@ export default function Admin() {
                 </div>
                 <div className="header-info">
                   <span className="badge-tipo">{produtoSelecionado.tipo}</span>
-                  <h2>{produtoSelecionado.nome}</h2>
+                  <h2 style={{ wordBreak: "break-word" }}>{produtoSelecionado.nome}</h2>
                   <p className="price-tag">R$ {produtoSelecionado.preco}</p>
                 </div>
               </div>
 
               <div className="modal-body">
-                <h3>Descrição Detalhada</h3>
-                <p>{produtoSelecionado.descricao}</p>
+                <h3>Descrição</h3>
+                <p style={{ wordBreak: "break-word" }}>{produtoSelecionado.descricao}</p>
               </div>
 
               <div className="modal-footer">

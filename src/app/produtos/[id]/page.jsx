@@ -64,8 +64,8 @@ export default function ProdutoDetalhe() {
             <div className="produto-container">
                 <img src={produto.linkimagem} alt={produto.nome} className="produto-img" />
                 <div className="produto-info">
-                    <h1>{produto.nome}</h1>
-                    <p className="produto-descricao">{produto.descdetalhada}</p>
+                    <h1 style={{ wordBreak: "break-word" }}>{produto.nome}</h1>
+                    <p className="produto-descricao" style={{ wordBreak: "break-word" }}>{produto.descricao}</p>
                     <p className="produto-preco">R$ {Number(produto.preco).toLocaleString("pt-BR")},00</p>
                     <p className="produto-tipo">
                         <strong>Tipo:</strong> {produto.tipo}
@@ -104,8 +104,24 @@ export default function ProdutoDetalhe() {
                                 onClick={() => router.push(`/produtos/${p.id}`)}
                             >
                                 <img src={p.linkimagem} alt={p.nome} />
-                                <h3>{p.nome}</h3>
-                                <p className="descricao">{p.descricao}</p>
+                                <h3 style={{
+                                    display: "-webkit-box",
+                                    WebkitLineClamp: 3,
+                                    WebkitBoxOrient: "vertical",
+                                    overflow: "hidden",
+                                    wordBreak: "break-word"
+                                }}>
+                                    {p.nome}
+                                </h3>
+                                <p className="descricao" style={{
+                                    display: "-webkit-box",
+                                    WebkitLineClamp: 3,
+                                    WebkitBoxOrient: "vertical",
+                                    overflow: "hidden",
+                                    wordBreak: "break-word"
+                                }}>
+                                    {p.descricao}
+                                </p>
                                 <div className="bottom-info">
                                     <p className="preco">R$ {Number(p.preco).toLocaleString("pt-BR")},00</p>
                                     <Link className="vermais" href={`/produtos/${p.id}`}>ver mais</Link>
