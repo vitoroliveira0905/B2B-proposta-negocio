@@ -49,7 +49,7 @@
           font-weight: bold;
         }
 
-        button:hover {
+        .buttonCadastro:hover {
           background: #0090e0;
         }
 
