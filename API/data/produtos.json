@@ -4,25 +4,14 @@
     "nome": "FANUC ARC Mate 100iD",
     "preco": 150000,
     "tipo": "Solda",
-   "descricao": "Robô de arco (arc welding) da série ARC Mate da FANUC, carga útil ~12 kg, usado para soldagem MIG/TIG. ",
-    "descdetalhada":"Compacto, veloz e extremamente preciso, o ARC Mate 100iD é o robô ideal para soldagens MIG e TIG de alta qualidade. Seu design esguio facilita o acesso a áreas estreitas, enquanto a passagem interna dos cabos aumenta a durabilidade e reduz a manutenção. Perfeito para linhas de produção automotiva e metalúrgica.",
+    "descricao": "Robô de arco (arc welding) da série ARC Mate da FANUC, carga útil ~12 kg, usado para soldagem MIG/TIG. ",
     "linkimagem": "https://d16ohktstcjvly.cloudfront.net/image/513891251684/image_5jbnuvrnad67r6ebb1shvlbj24/-T3%3A2s-FJPG/-T1%3A1-FWEBP?cb=513891251684"
-  },
-  {
-    "id": 2,
-    "nome": "FANUC ARC Mate 120iD",
-    "preco": 170000,
-    "tipo": "Solda",
-   "descdetalhada":"Com maior alcance e capacidade de carga, o 120iD garante soldas limpas e consistentes em peças de médio e grande porte. Seu controle de trajetória suave e programação simples tornam o processo rápido e confiável. Ideal para ambientes de alta produtividade.",
-    "descricao": "Robô de soldagem de alto desempenho da FANUC, alcance ampliado para aplicações maiores. ",
-    "linkimagem": "https://www.fanuc.eu/_next/image?url=https%3A%2F%2Fd16ohktstcjvly.cloudfront.net%2Fimage%2F513891251684%2Fimage_u0ouovtj3l7qv5goc4vkbpc10q%2F-T3%253A2s-FJPG%2F-T1%253A1-FWEBP%3Fcb%3D513891251684%2F-T1%253A1-FWEBP&w=750&q=75"
   },
   {
     "id": 3,
     "nome": "Kawasaki BA006N",
     "preco": 155500,
     "tipo": "Solda",
-   "descdetalhada":"Leve e ágil, o BA006N é especializado em soldagens de precisão. Sua estrutura compacta permite integração em células densas, mantendo a estabilidade do arco e a repetibilidade exata. Um modelo eficiente para fábricas que buscam qualidade e economia de espaço.",
     "descricao": "Robô de arco da Kawasaki, carga útil 6 kg, alcance ~1445 mm. ",
     "linkimagem": "https://kawasakirobotics.nl/img/p/7/7/77-thickbox_default.jpg"
   },
@@ -31,7 +20,6 @@
     "nome": "Kawasaki BA013L",
     "preco": 165700,
     "tipo": "Solda",
-   "descdetalhada":"Criado para soldas complexas e de maior alcance, o BA013L oferece torque elevado e movimentação fluida. Seu braço longo garante acesso a áreas difíceis e mantém a performance mesmo em longas jornadas de operação contínua.",
     "descricao": "Robô de arco da Kawasaki, carga útil 13 kg, versão de braço longo (L). ",
     "linkimagem": "https://img.directindustry.com/pt/images_di/photo-m2/18836-20295751.jpg"
   },
@@ -40,7 +28,6 @@
     "nome": "Yaskawa Motoman AR2410",
     "preco": 185000,
     "tipo": "Solda",
-   "descdetalhada":"Robusto e veloz, o AR2410 executa soldas impecáveis em qualquer posição. Compatível com diversas fontes de soldagem, é um modelo confiável para linhas automotivas e de estruturas metálicas, entregando precisão e acabamento de alto nível.",
     "descricao": "Robô da série AR da Motoman para soldagem de arco (alta velocidade / torque), compatível com interface de soldagem. ",
     "linkimagem": "https://www.yaskawa.co.th/uploads/DPyXd20230810202223.webp"
   },
@@ -49,25 +36,14 @@
     "nome": "KUKA KR CYBERTECH nano ARC",
     "preco": 99900,
     "tipo": "Solda",
-   "descdetalhada":"Projetado para soldagem de pequenas e médias peças, o CYBERTECH nano ARC alia leveza e exatidão. Sua movimentação suave e design fino o tornam ideal para espaços reduzidos sem perder em eficiência.",
     "descricao": "Robô especializado para soldagem de arco; versões com alcances entre 1.440 e 1.840 mm. ",
     "linkimagem": "https://d16ohktstcjvly.cloudfront.net/image/513891251684/image_5jbnuvrnad67r6ebb1shvlbj24/-T3%3A2s-FJPG/-T1%3A1-FWEBP?cb=513891251684"
-  },
-  {
-    "id": 7,
-    "nome": "FANUC P-50iB",
-    "preco": 342000,
-    "tipo": "Pintura",
-    "descdetalhada":"Pequeno, leve e preciso, o P-50iB entrega acabamento uniforme e de alta qualidade. Ideal para pintura de componentes pequenos e médios, combina economia de tinta e alta repetibilidade.",
-    "descricao": "Robô de pintura/coating da FANUC, 6 eixos, para aplicações industriais de pintura.",
-    "linkimagem": "https://www.fanuc.eu/_next/image?url=https%3A%2F%2Fd16ohktstcjvly.cloudfront.net%2Fimage%2F513891251684%2Fimage_u0ouovtj3l7qv5goc4vkbpc10q%2F-T3%253A2s-FJPG%2F-T1%253A1-FWEBP%3Fcb%3D513891251684%2F-T1%253A1-FWEBP&w=750&q=75"
   },
   {
     "id": 8,
     "nome": "FANUC P-250iB",
     "preco": 344000,
     "tipo": "Pintura",
-    "descdetalhada":"Voltado para aplicações automotivas, o P-250iB oferece amplo alcance e movimentos suaves. Sua capacidade de reproduzir trajetórias complexas garante uma cobertura perfeita, mesmo em superfícies curvas.",
     "descricao": "Robô de pintura com maior alcance e carga para aplicações automotivas. ",
     "linkimagem": "https://kawasakirobotics.nl/img/p/7/7/77-thickbox_default.jpg"
   },
@@ -76,7 +52,6 @@
     "nome": "Yaskawa Motoman MPX3500",
     "preco": 123000,
     "tipo": "Pintura",
-    "descdetalhada":"Especialista em pintura de grandes superfícies, o MPX3500 combina longo alcance com precisão de pulverização. Compatível com pistolas automáticas, é ideal para linhas automotivas e de maquinário pesado.",
     "descricao": "Robô de pintura da Motoman, alcance 2.700 mm (montagem de piso) / 3.500 mm (montagem mural). ",
     "linkimagem": "https://img.directindustry.com/pt/images_di/photo-m2/18836-20295751.jpg"
   },
@@ -85,7 +60,6 @@
     "nome": "KUKA KR AGILUS",
     "preco": 543500,
     "tipo": "Manipulador",
-    "descdetalhada":"Projetado para montagem pesada, o IRB 6700 une força e precisão. Robusto e confiável, é ideal para linhas automotivas e aplicações que exigem ciclos longos com mínimo tempo de parada.",
     "descricao": "Robô leve e ágil da KUKA para manipulação, montagens e aplicações de precisão em espaços reduzidos. ",
     "linkimagem": "https://www.yaskawa.co.th/uploads/DPyXd20230810202223.webp"
   },
@@ -94,25 +68,14 @@
     "nome": "Universal Robots UR10e",
     "preco": 434540,
     "tipo": "Manipulador",
-    "descdetalhada":"Compacto e ágil, o IRB 2600 se destaca na montagem de componentes e manipulação de materiais. Seu controle de movimento fluido garante montagem precisa com grande economia de espaço.",
     "descricao": "Robô colaborativo de 6 eixos da Universal Robots, carga útil ~12,5 kg e alcance ~1300 mm. ",
     "linkimagem": "https://d16ohktstcjvly.cloudfront.net/image/513891251684/image_5jbnuvrnad67r6ebb1shvlbj24/-T3%3A2s-FJPG/-T1%3A1-FWEBP?cb=513891251684"
-  },
-  {
-    "id": 12,
-    "nome": "Universal Robots UR5e",
-    "preco": 83000,
-    "tipo": "Manipulador",
-    "descdetalhada":"Equilíbrio perfeito entre alcance e carga útil. O KR 10 R1420 é usado em montagens de alta velocidade e aplicações eletrônicas, oferecendo precisão repetitiva e baixo consumo energético.",
-    "descricao": "Robô colaborativo de médio porte, carga ~5 kg, alcance ~850 mm. ",
-    "linkimagem": "https://www.fanuc.eu/_next/image?url=https%3A%2F%2Fd16ohktstcjvly.cloudfront.net%2Fimage%2F513891251684%2Fimage_u0ouovtj3l7qv5goc4vkbpc10q%2F-T3%253A2s-FJPG%2F-T1%253A1-FWEBP%3Fcb%3D513891251684%2F-T1%253A1-FWEBP&w=750&q=75"
   },
   {
     "id": 13,
     "nome": "FANUC CRX-10iA (Paint Cobot)",
     "preco": 545346,
     "tipo": "Pintura",
-    "descdetalhada":"O cobot de pintura CRX-10iA é a escolha ideal para empresas que buscam segurança e flexibilidade. Pode operar lado a lado com o operador, aplicando camadas de tinta uniformes com zero risco de colisão.",
     "descricao": "Robô colaborativo para pintura, carga 10 kg, alcance ~1418 mm. ",
     "linkimagem": "https://kawasakirobotics.nl/img/p/7/7/77-thickbox_default.jpg"
   },
@@ -121,7 +84,6 @@
     "nome": "FANUC CRX-10iA (Arc)",
     "preco": 430000,
     "tipo": "Solda",
-   "descdetalhada":"O cobot CRX-10iA Arc combina segurança e performance. Com sensores de contato e fácil programação, pode operar ao lado de pessoas, tornando o processo de solda colaborativo, intuitivo e seguro, ideal para pequenas e médias produções.",
     "descricao": "Versão colaborativa para soldagem por arco, carga 10 kg. ",
     "linkimagem": "https://img.directindustry.com/pt/images_di/photo-m2/18836-20295751.jpg"
   },
@@ -130,7 +92,6 @@
     "nome": "Path Robotics AF-1",
     "preco": 543555,
     "tipo": "Solda",
-   "descdetalhada":"Equipado com inteligência artificial, o AF-1 identifica automaticamente a geometria das peças e ajusta o percurso de solda em tempo real. É a solução perfeita para empresas que buscam automação inteligente e produtividade sem retrabalho.",
     "descricao": "Sistema de soldagem autônomo com IA da Path Robotics, para produção de alto volume. ",
     "linkimagem": "https://www.yaskawa.co.th/uploads/DPyXd20230810202223.webp"
   },
@@ -139,25 +100,14 @@
     "nome": "Path Robotics AW-3",
     "preco": 234000,
     "tipo": "Solda",
-   "descdetalhada":"Com tecnologia de aprendizado de máquina, o AW-3 oferece soldagem autônoma de alta precisão. Ele se adapta a variações no material e garante cordões consistentes sem necessidade de reprogramação manual, otimizando o fluxo de produção.",
     "descricao": "Outra solução de soldagem da Path Robotics, adaptável a variações de peça sem reprogramação intensa. ",
     "linkimagem": "https://d16ohktstcjvly.cloudfront.net/image/513891251684/image_5jbnuvrnad67r6ebb1shvlbj24/-T3%3A2s-FJPG/-T1%3A1-FWEBP?cb=513891251684"
-  },
-  {
-    "id": 17,
-    "nome": "Motoman AR1440",
-    "preco": 43240,
-    "tipo": "Solda",
-   "descdetalhada":"Versátil e econômico, o AR1440 entrega soldas consistentes e de qualidade em ritmos produtivos. Seu desempenho equilibrado o torna uma excelente escolha para empresas que desejam automatizar sem abrir mão da precisão.",
-    "descricao": "Robô de soldagem da série AR da Motoman, para aplicações de solda de média carga. ",
-    "linkimagem": "https://www.fanuc.eu/_next/image?url=https%3A%2F%2Fd16ohktstcjvly.cloudfront.net%2Fimage%2F513891251684%2Fimage_u0ouovtj3l7qv5goc4vkbpc10q%2F-T3%253A2s-FJPG%2F-T1%253A1-FWEBP%3Fcb%3D513891251684%2F-T1%253A1-FWEBP&w=750&q=75"
   },
   {
     "id": 18,
     "nome": "ABB IRB 5500",
     "preco": 342300,
     "tipo": "Pintura",
-    "descdetalhada":"Versátil e eficiente, o IRB 5500 combina desempenho de pintura e manipulação. Seu controle de trajetória é suave e preciso, garantindo acabamentos profissionais em qualquer tipo de superfície.",
     "descricao": "Robô multiuso da ABB que pode ser configurado para pintura e também outras tarefas de manipulação. ",
     "linkimagem": "https://kawasakirobotics.nl/img/p/7/7/77-thickbox_default.jpg"
   },
@@ -166,7 +116,6 @@
     "nome": "ABB IRB 7600",
     "preco": 43240,
     "tipo": "Manipulador",
-    "descdetalhada":"Ideal para montagens delicadas, o IRB 1200 combina rapidez e controle refinado. É amplamente utilizado em eletrônicos, embalagens e tarefas de pick & place com excelente desempenho.",
     "descricao": "Robô de grande porte para movimentar cargas volumosas ou realizar operações de manipulação pesada. ",
     "linkimagem": "https://img.directindustry.com/pt/images_di/photo-m2/18836-20295751.jpg"
   },
@@ -175,7 +124,6 @@
     "nome": "KUKA KR QUANTEC",
     "preco": 324200,
     "tipo": "Manipulador",
-    "descdetalhada":"Com cabeamento interno e estrutura compacta, o IRB 2600ID evita interferências durante o movimento. Garante montagem contínua, limpa e eficiente em ambientes com pouco espaço.",
     "descricao": "Robô robusto da KUKA utilizado em linhas industriais para manipulação pesada e carregamento. ",
     "linkimagem": "https://www.yaskawa.co.th/uploads/DPyXd20230810202223.webp"
   },
@@ -184,25 +132,14 @@
     "nome": "ABB IRB 7600 Paint Variant",
     "preco": 75600,
     "tipo": "Pintura",
-    "descdetalhada":"Adaptado para suportar sistemas de pintura pesados, este modelo é ideal para revestimentos industriais de grande escala. Sua força e estabilidade resultam em um acabamento uniforme, mesmo em longos ciclos de operação.",
     "descricao": "Versão adaptada para pintura do robusto robô IRB 7600 da ABB. ",
     "linkimagem": "https://d16ohktstcjvly.cloudfront.net/image/513891251684/image_5jbnuvrnad67r6ebb1shvlbj24/-T3%3A2s-FJPG/-T1%3A1-FWEBP?cb=513891251684"
-  },
-  {
-    "id": 22,
-    "nome": "KUKA KR 5 arc HW",
-    "preco": 949490,
-    "tipo": "Solda",
-   "descdetalhada":"Compacto e ágil, o KR 5 arc HW conta com punho oco que protege cabos e mangueiras, aumentando a durabilidade do sistema. Ideal para soldagens em espaços confinados e geometrias complexas.",
-    "descricao": "Robô de soldagem leve da KUKA para aplicações de arco em tarefas repetitivas com acessibilidade.  ",
-    "linkimagem": "https://www.fanuc.eu/_next/image?url=https%3A%2F%2Fd16ohktstcjvly.cloudfront.net%2Fimage%2F513891251684%2Fimage_u0ouovtj3l7qv5goc4vkbpc10q%2F-T3%253A2s-FJPG%2F-T1%253A1-FWEBP%3Fcb%3D513891251684%2F-T1%253A1-FWEBP&w=750&q=75"
   },
   {
     "id": 23,
     "nome": "Universal Robots UR3e",
     "preco": 324200,
     "tipo": "Manipulador",
-    "descdetalhada":"Versátil e confiável, o KR 16-2 atua em montagem, paletização e manuseio de materiais. Sua estrutura robusta oferece precisão e estabilidade, mesmo em ciclos prolongados.",
     "descricao": "Robô menor colaborativo da Universal para tarefas mais leves, carga ~3 kg. ",
     "linkimagem": "https://kawasakirobotics.nl/img/p/7/7/77-thickbox_default.jpg"
   },
@@ -211,7 +148,6 @@
     "nome": "FANUC M-710iC/12L (Arc)",
     "preco": 988000,
     "tipo": "Solda",
-   "descdetalhada":"Com braço alongado e estrutura resistente, este modelo garante soldas estáveis em peças grandes. O controle de movimento suave proporciona acabamento uniforme, reduzindo retrabalhos e aumentando a eficiência.",
     "descricao": "Robô de arco de longo alcance da FANUC, carga ~12 kg, para soldagem de peças de grande porte. ",
     "linkimagem": "https://img.directindustry.com/pt/images_di/photo-m2/18836-20295751.jpg"
   },
@@ -220,7 +156,6 @@
     "nome": "FANUC P-700iB",
     "preco": 234240,
     "tipo": "Pintura",
-    "descdetalhada":"Com amplitude de movimento superior, o P-700iB cobre superfícies amplas com fluidez e precisão. É a solução perfeita para indústrias que buscam alto rendimento em pintura de grandes estruturas.",
     "descricao": "Robô de pintura de alto alcance para aplicações de revestimento em peças grandes. ",
     "linkimagem": "https://www.yaskawa.co.th/uploads/DPyXd20230810202223.webp"
   },
@@ -229,25 +164,14 @@
     "nome": "KUKA KR AGILUS Paint Variant",
     "preco": 345300,
     "tipo": "Pintura",
-    "descdetalhada":"Rápido e compacto, o AGILUS Paint proporciona acabamento impecável em peças pequenas. Seu tempo de resposta rápido e alta precisão garantem produtividade sem desperdício de tinta.",
     "descricao": "Configuração de pintura com robô KUKA AGILUS (hipotético). ",
     "linkimagem": "https://d16ohktstcjvly.cloudfront.net/image/513891251684/image_5jbnuvrnad67r6ebb1shvlbj24/-T3%3A2s-FJPG/-T1%3A1-FWEBP?cb=513891251684"
-  },
-  {
-    "id": 27,
-    "nome": "ABB IRB 2600",
-    "preco": 342300,
-    "tipo": "Manipulador",
-    "descdetalhada":"Com capacidade de 25 kg, o GP25 é perfeito para montagem de médio porte. Sua velocidade e alcance otimizam linhas de produção e reduzem gargalos operacionais.",
-    "descricao": "Robô de médio porte da ABB para manipulação, carga moderada e alcance médio. ",
-    "linkimagem": "https://www.fanuc.eu/_next/image?url=https%3A%2F%2Fd16ohktstcjvly.cloudfront.net%2Fimage%2F513891251684%2Fimage_u0ouovtj3l7qv5goc4vkbpc10q%2F-T3%253A2s-FJPG%2F-T1%253A1-FWEBP%3Fcb%3D513891251684%2F-T1%253A1-FWEBP&w=750&q=75"
   },
   {
     "id": 28,
     "nome": "KUKA KR 16",
     "preco": 567400,
     "tipo": "Manipulador",
-    "descdetalhada":"Um dos robôs mais populares da FANUC, o M-20iB/25 combina leveza, rigidez e precisão. Ideal para montagem e manipulação de peças médias, com baixo custo de manutenção.",
     "descricao": "Robô da KUKA de uso geral para manufatura, montagem e manipulação média. ",
     "linkimagem": "https://kawasakirobotics.nl/img/p/7/7/77-thickbox_default.jpg"
   },
@@ -256,7 +180,6 @@
     "nome": "Motoman GP7",
     "preco": 234230,
     "tipo": "Manipulador",
-    "descdetalhada":"Projetado para montagens robustas, o KR 60-3 oferece alta carga útil e alcance amplo. É a solução certa para aplicações de automação industrial que exigem força e confiabilidade.",
     "descricao": "Robô da Yaskawa Motoman para manipulação, montagem e transferência leve de peças. ",
     "linkimagem": "https://img.directindustry.com/pt/images_di/photo-m2/18836-20295751.jpg"
   },
@@ -265,7 +188,6 @@
     "nome": "ABB IRB 120",
     "preco": 64643,
     "tipo": "Manipulador",
-    "descdetalhada":"Compacto e veloz, o IRB 460 é ideal para paletização de alta velocidade. Sua precisão e repetibilidade garantem empilhamento perfeito, otimizando linhas logísticas e de embalagem.",
     "descricao": "Robô compacto da ABB para manipulação, montagem leve e ambientes limitados. ",
     "linkimagem": "https://www.yaskawa.co.th/uploads/DPyXd20230810202223.webp"
   },
@@ -274,25 +196,15 @@
     "nome": "Motoman MP2000",
     "preco": 643345,
     "tipo": "Pintura",
-    "descdetalhada":"Com alcance de até 3,15 m, o IRB 660 é um gigante da paletização. Suporta cargas pesadas e opera com estabilidade em qualquer ambiente industrial.",
     "descricao": "Robô de pintura/coating da Motoman para aplicações industriais. ",
     "linkimagem": "https://d16ohktstcjvly.cloudfront.net/image/513891251684/image_5jbnuvrnad67r6ebb1shvlbj24/-T3%3A2s-FJPG/-T1%3A1-FWEBP?cb=513891251684"
   },
-  {
-    "id": 32,
-    "nome": "Motoman MPX1000",
-    "preco": 654634,
-    "tipo": "Pintura",
-    "descdetalhada":"Especialista em paletização de caixas e sacarias, o M-410iC entrega força, rapidez e economia de energia. Ideal para linhas automatizadas de produção contínua.",
-    "descricao": "Robô de pintura/coating da Motoman para operações menores.  ",
-    "linkimagem": "https://www.fanuc.eu/_next/image?url=https%3A%2F%2Fd16ohktstcjvly.cloudfront.net%2Fimage%2F513891251684%2Fimage_u0ouovtj3l7qv5goc4vkbpc10q%2F-T3%253A2s-FJPG%2F-T1%253A1-FWEBP%3Fcb%3D513891251684%2F-T1%253A1-FWEBP&w=750&q=75"
-  },
+
   {
     "id": 33,
     "nome": "Motoman UP20-6 (packaging variant)",
     "preco": 435340,
     "tipo": "Embalagem",
-    "descdetalhada":"Este modelo é sinônimo de potência e alcance. Desenvolvido para paletização pesada, o QUANTEC PA combina velocidade com alta precisão em espaços industriais amplos.",
     "descricao": "Robô para aplicações de pick & place / embalagem leve (exemplo de aplicação da série UP da Yaskawa). ",
     "linkimagem": "https://kawasakirobotics.nl/img/p/7/7/77-thickbox_default.jpg"
   },
@@ -301,7 +213,6 @@
     "nome": "KUKA KR AGILUS Palletizing variant",
     "preco": 677870,
     "tipo": "Embalagem",
-    "descdetalhada":"Com capacidade de carga impressionante, o MPL800 II é perfeito para movimentar grandes volumes. Sua robustez garante estabilidade mesmo sob cargas extremas.",
     "descricao": "Robô AGILUS adaptado para tarefas de embalagem / paletização leve. ",
     "linkimagem": "https://img.directindustry.com/pt/images_di/photo-m2/18836-20295751.jpg"
   },
@@ -310,7 +221,6 @@
     "nome": "ABB IRB 2600 Palletizer variant",
     "preco": 756756,
     "tipo": "Embalagem",
-    "descdetalhada":"Versátil e potente, o R-2000iC executa tarefas de paletização e manuseio de peças grandes com fluidez. É uma das opções mais confiáveis do mercado industrial.",
     "descricao": "Configuração de paletização / embalagem com o IRB 2600 da ABB. ",
     "linkimagem": "https://www.yaskawa.co.th/uploads/DPyXd20230810202223.webp"
   },
@@ -319,25 +229,14 @@
     "nome": "FANUC M-20iA (packaging / handling)",
     "preco": 436436,
     "tipo": "Embalagem",
-    "descdetalhada":"Leve e compacto, o IRB 120 é ideal para inspeções, medições e pequenas montagens. Sua precisão milimétrica o torna um aliado perfeito para laboratórios e linhas de eletrônicos.",
     "descricao": "Robô de manuseio/picking da FANUC usado comumente em linhas de embalagem. ",
     "linkimagem": "https://d16ohktstcjvly.cloudfront.net/image/513891251684/image_5jbnuvrnad67r6ebb1shvlbj24/-T3%3A2s-FJPG/-T1%3A1-FWEBP?cb=513891251684"
-  },
-  {
-    "id": 37,
-    "nome": "KUKA KR 10 R1100 (packaging)",
-    "preco": 765756,
-    "tipo": "Embalagem",
-    "descdetalhada":"O cobot LBR iiwa é sensível ao toque e seguro para interação humana. Perfeito para tarefas de precisão e montagem colaborativa, aprende facilmente novos movimentos com o operador.",
-    "descricao": "Robô compacto da KUKA utilizado em aplicações de embalagem / pick & place leve. ",
-    "linkimagem": "https://www.fanuc.eu/_next/image?url=https%3A%2F%2Fd16ohktstcjvly.cloudfront.net%2Fimage%2F513891251684%2Fimage_u0ouovtj3l7qv5goc4vkbpc10q%2F-T3%253A2s-FJPG%2F-T1%253A1-FWEBP%3Fcb%3D513891251684%2F-T1%253A1-FWEBP&w=750&q=75"
   },
   {
     "id": 38,
     "nome": "Motoman HP20 (packaging / handling)",
     "preco": 423542,
     "tipo": "Embalagem",
-    "descdetalhada":"Um robô rápido e preciso para montagem e inspeção de componentes eletrônicos. Seu design SCARA garante agilidade em linhas compactas e ciclos ultrarrápidos.",
     "descricao": "Robô de manuseio leve da Motoman frequentemente usado em linhas de embalagem. ",
     "linkimagem": "https://kawasakirobotics.nl/img/p/7/7/77-thickbox_default.jpg"
   },
@@ -346,7 +245,6 @@
     "nome": "ABB IRB 120 Palletizer variant",
     "preco": 643634,
     "tipo": "Embalagem",
-    "descdetalhada":"Compacto e econômico, o LS6-B oferece precisão de nível micrométrico. Excelente para inspeções, pick & place e montagem leve em ambientes controlados.",
     "descricao": "Versão adaptada para embalagem / palletização leve do IRB 120 da ABB. ",
     "linkimagem": "https://img.directindustry.com/pt/images_di/photo-m2/18836-20295751.jpg"
   },
@@ -355,7 +253,6 @@
     "nome": "KUKA KR 5 arc (packaging variant)",
     "preco": 865865,
     "tipo": "Embalagem",
-    "descdetalhada":"Cobot colaborativo de alta precisão. Possui visão integrada e pode identificar objetos automaticamente, tornando a inspeção inteligente e eficiente.",
     "descricao": "Configuração de robô leve para manipulação / embalagem com a estrutura de um robô arc. ",
     "linkimagem": "https://www.yaskawa.co.th/uploads/DPyXd20230810202223.webp"
   },
@@ -364,25 +261,14 @@
     "nome": "KUKA KR 30 HA (handling)",
     "preco": 765633,
     "tipo": "Manipulador",
-    "descdetalhada":"Compacto e versátil, o GP8 é ideal para manipulação de peças pequenas e médias. Sua velocidade e precisão aumentam a eficiência de qualquer linha de produção.",
     "descricao": "Robô de manuseio médio da KUKA usado em linhas industriais para carregar e descarregar peças. ",
     "linkimagem": "https://d16ohktstcjvly.cloudfront.net/image/513891251684/image_5jbnuvrnad67r6ebb1shvlbj24/-T3%3A2s-FJPG/-T1%3A1-FWEBP?cb=513891251684"
-  },
-  {
-    "id": 42,
-    "nome": "ABB IRB 4400",
-    "preco": 543534,
-    "tipo": "Manipulador",
-    "descdetalhada":"Robô de média carga para corte, manuseio e montagem. Seu braço articulado garante precisão e estabilidade em tarefas industriais exigentes.",
-    "descricao": "Robô de médio a alto porte da ABB para manipulação pesada e automação industrial. ",
-    "linkimagem": "https://www.fanuc.eu/_next/image?url=https%3A%2F%2Fd16ohktstcjvly.cloudfront.net%2Fimage%2F513891251684%2Fimage_u0ouovtj3l7qv5goc4vkbpc10q%2F-T3%253A2s-FJPG%2F-T1%253A1-FWEBP%3Fcb%3D513891251684%2F-T1%253A1-FWEBP&w=750&q=75"
   },
   {
     "id": 43,
     "nome": "KUKA KR 120 (heavy handling)",
     "preco": 546343,
     "tipo": "Manipulador",
-    "descdetalhada":"Rápido e preciso, o AGILUS é perfeito para corte e manipulação de pequenas peças. Seu design robusto e compacto permite operar em espaços reduzidos.",
     "descricao": "Robô robusto da KUKA para manipulação pesada em linhas industriais. ",
     "linkimagem": "https://kawasakirobotics.nl/img/p/7/7/77-thickbox_default.jpg"
   },
@@ -391,7 +277,6 @@
     "nome": "ABB IRB 6620",
     "preco": 436433,
     "tipo": "Manipulador",
-    "descdetalhada":"Combinando velocidade e precisão, o IRB 1600 é ideal para processos de corte e montagem fina. Oferece excelente repetibilidade e longa vida útil.",
     "descricao": "Robô avançado de manipulação de grande porte usado para montagem pesada e manuseio complexo. ",
     "linkimagem": "https://img.directindustry.com/pt/images_di/photo-m2/18836-20295751.jpg"
   },
@@ -400,7 +285,6 @@
     "nome": "FANUC M-1iA (packaging / micro)",
     "preco": 654635,
     "tipo": "Embalagem",
-    "descdetalhada":"O MH24 entrega força e flexibilidade para tarefas de corte, soldagem leve e movimentação. Seu desempenho ágil garante ciclos rápidos e contínuos.",
     "descricao": "Robô compacto da FANUC utilizado para micro-pick & place e embalagem de pequenas peças. ",
     "linkimagem": "https://www.yaskawa.co.th/uploads/DPyXd20230810202223.webp"
   },
@@ -409,25 +293,14 @@
     "nome": "KUKA KR CYBERTECH nano (handling)",
     "preco": 546334,
     "tipo": "Manipulador",
-    "descdetalhada":"Projetado para cargas pesadas, o M-900iB movimenta grandes estruturas com estabilidade e segurança. Usado em corte de chapas e moldagem metálica.",
     "descricao": "Versão de manipulação do KR CYBERTECH nano da KUKA (sem função de soldagem). ",
     "linkimagem": "https://d16ohktstcjvly.cloudfront.net/image/513891251684/image_5jbnuvrnad67r6ebb1shvlbj24/-T3%3A2s-FJPG/-T1%3A1-FWEBP?cb=513891251684"
-  },
-  {
-    "id": 47,
-    "nome": "Motoman HC10 (cobot manipulator)",
-    "preco": 543535,
-    "tipo": "Manipulador",
-    "descdetalhada":"Um dos robôs mais potentes do mercado, o IRB 8700 combina força e precisão. Ideal para grandes estruturas, oferece desempenho contínuo e confiável.",
-    "descricao": "Robô colaborativo da Motoman para manipulação leve ao lado do operador. ",
-    "linkimagem": "https://www.fanuc.eu/_next/image?url=https%3A%2F%2Fd16ohktstcjvly.cloudfront.net%2Fimage%2F513891251684%2Fimage_u0ouovtj3l7qv5goc4vkbpc10q%2F-T3%253A2s-FJPG%2F-T1%253A1-FWEBP%3Fcb%3D513891251684%2F-T1%253A1-FWEBP&w=750&q=75"
   },
   {
     "id": 48,
     "nome": "ABB GoFa (cobot manipulator)",
     "preco": 234255,
     "tipo": "Manipulador",
-    "descdetalhada":"Capaz de erguer até 1 tonelada, o Titan KR 1000 é o maior robô da KUKA. Sua precisão mesmo sob carga extrema o torna perfeito para aplicações estruturais pesadas.",
     "descricao": "Robô colaborativo da ABB para aplicações de manipulação leve em ambientes industriais. ",
     "linkimagem": "https://kawasakirobotics.nl/img/p/7/7/77-thickbox_default.jpg"
   },
@@ -436,7 +309,6 @@
     "nome": "KUKA iiwa (manipulator)",
     "preco": 1436334,
     "tipo": "Manipulador",
-    "descdetalhada":"O cobot mais forte do mundo, com capacidade de 35 kg. Ideal para aplicações colaborativas de manuseio pesado, combina força e segurança em uma única solução.",
     "descricao": "Robô colaborativo leve da KUKA para montagem, manipulação sensível e interação segura. ",
     "linkimagem": "https://img.directindustry.com/pt/images_di/photo-m2/18836-20295751.jpg"
   },
@@ -445,8 +317,15 @@
     "nome": "ABB SWIFTI (packaging / mobile manipulator)",
     "preco": 543543,
     "tipo": "Manipulador",
-    "descdetalhada":"O cobot GoFa é leve, intuitivo e fácil de programar. Trabalha lado a lado com humanos com total segurança, ideal para pequenas montagens, inspeções e manuseios ágeis.",
     "descricao": "Robô móvel da ABB com braço integrado para tarefas de manipulação e embalagem fiel a este conceito. ",
     "linkimagem": "https://www.yaskawa.co.th/uploads/DPyXd20230810202223.webp"
+  },
+  {
+    "id": 51,
+    "nome": "adasdsadassssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+    "preco": "12",
+    "tipo": "Pintura",
+    "descricao": "dadddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "linkimagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDF5XsLZjD60SsGNTcNquq9VNn59Vi5mXooFRNJcTvk0HtVEE38ovxcwbM2gV8I07Pxd-uYo-2oPRhilXoywtu0vd33vtap9krlwgIitk&s=10"
   }
 ]

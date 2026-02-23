@@ -65,8 +65,8 @@ export default function ProdutosClient() {
     filtro === "Todos"
       ? produtos
       : produtos.filter(
-          (p) => p.tipo.toLowerCase() === filtro.toLowerCase()
-        );
+        (p) => p.tipo.toLowerCase() === filtro.toLowerCase()
+      );
 
   return (
     <div className="produtos-page">
@@ -103,8 +103,22 @@ export default function ProdutosClient() {
           produtosFiltrados.map((p) => (
             <div className="produto-card" key={p.id}>
               <img src={p.linkimagem} alt={p.nome} />
-              <h3>{p.nome}</h3>
-              <p className="descricao">{p.descricao}</p>
+              <h3 style={{
+                display: "-webkit-box",
+                WebkitLineClamp: 2,
+                WebkitBoxOrient: "vertical",
+                overflow: "hidden"
+              }}>
+                {p.nome}
+              </h3>
+              <p style={{
+                display: "-webkit-box",
+                WebkitLineClamp: 2,
+                WebkitBoxOrient: "vertical",
+                overflow: "hidden"
+              }}>
+                {p.descricao}
+              </p>
               <div className="bottom-info">
                 <p className="preco">R$ {Number(p.preco).toLocaleString("pt-BR")},00</p>
                 <Link className="vermais" href={`/produtos/${p.id}`}>
@@ -117,6 +131,6 @@ export default function ProdutosClient() {
           <p className="nenhum-produto">Nenhum produto encontrado.</p>
         )}
       </div>
-    </div>
+    </div >
   );
 }
