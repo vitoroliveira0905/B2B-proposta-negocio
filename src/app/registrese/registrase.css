@@ -39,7 +39,7 @@
         }
 
         button {
-          background: #00aaff;
+          background: #3b82f6;
           color: white;
           padding: 10px;
           border: none;
@@ -50,7 +50,7 @@
         }
 
         .buttonCadastro:hover {
-          background: #0090e0;
+          background: #3b6cf3;
         }
 
         .alternar {

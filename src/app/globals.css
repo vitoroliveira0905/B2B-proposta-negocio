@@ -604,7 +604,7 @@ a {
 .btn-enviar {
   align-self: center;
   padding: 12px 40px;
-  background: #00aaff;
+  background: #3b82f6;
   color: #fff;
   border: none;
   border-radius: 10px;
@@ -614,6 +614,6 @@ a {
 }
 
 .btn-enviar:hover {
-  background: #0077cc;
+  background: #3963d6;
   transform: scale(1.03);
 }
