@@ -105,7 +105,7 @@ export default function Registro() {
           />
         </div>
 
-        <button type="submit">{isLogin ? "Entrar" : "Registrar"}</button>
+        <button type="submit" className="buttonCadastro">{isLogin ? "Entrar" : "Registrar"}</button>
 
         <p className="alternar">
           {isLogin ? "Ainda não tem conta?" : "Já possui conta?"}{" "}
