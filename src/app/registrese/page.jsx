@@ -35,12 +35,12 @@ export default function Registro() {
         setMensagem(data.message || "Operação realizada com sucesso!");
 
         if (isLogin) {
-          const role = usuario === "admin@rubotz.com" ? "admin" : "empresa";
+          const role = data.role === "admin" ? "admin" : "empresa";
           localStorage.setItem(
             "empresaLogada",
             JSON.stringify({
               nomeEmpresa: data.empresa || data.nomeEmpresa || empresa || usuario,
-              usuario,
+              usuario,  
               role,
             })
           );
