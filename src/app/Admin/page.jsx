@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import "./admin.css";
 
+
 export default function Admin() {
   const [produtos, setProdutos] = useState([]);
   const [nome, setNome] = useState("");
@@ -11,7 +12,7 @@ export default function Admin() {
   const [linkimagem, setLinkimagem] = useState("");
   const [editando, setEditando] = useState(false);
   const [idEditando, setIdEditando] = useState(null);
-
+  const [produtoSelecionado, setProdutoSelecionado] = useState(null);
 
   const carregarProdutos = async () => {
     const res = await fetch("http://localhost:3001/api/produtos");
@@ -69,6 +70,10 @@ export default function Admin() {
     setDescricao("");
     setLinkimagem("");
     carregarProdutos();
+  };
+
+  const visualizarProduto = (produto) => {
+    setProdutoSelecionado(produto);
   };
 
 
@@ -187,8 +192,8 @@ export default function Admin() {
                     <button onClick={() => {
                       editarProduto(p);
                       window.scrollTo({ top: 0, behavior: 'smooth' });
-                    }}>                      
-                    <img
+                    }}>
+                      <img
                         src="https://cdn-icons-png.flaticon.com/512/1159/1159968.png"
                         alt=""
                         style={{ width: "1.2vw", filter: "invert()" }}
@@ -211,6 +216,33 @@ export default function Admin() {
           </tbody>
 
         </table>
+        {produtoSelecionado && (
+          <div className="modal-overlay" onClick={() => setProdutoSelecionado(null)}>
+            <div className="modal-card" onClick={(e) => e.stopPropagation()}>
+              <div className="modal-header">
+                <div className="img-container">
+                  <img src={produtoSelecionado.linkimagem} alt={produtoSelecionado.nome} />
+                </div>
+                <div className="header-info">
+                  <span className="badge-tipo">{produtoSelecionado.tipo}</span>
+                  <h2>{produtoSelecionado.nome}</h2>
+                  <p className="price-tag">R$ {produtoSelecionado.preco}</p>
+                </div>
+              </div>
+
+              <div className="modal-body">
+                <h3>Descrição Detalhada</h3>
+                <p>{produtoSelecionado.descricao}</p>
+              </div>
+
+              <div className="modal-footer">
+                <button className="btn-fechar" onClick={() => setProdutoSelecionado(null)}>
+                  Voltar ao Painel
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );
