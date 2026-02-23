@@ -116,10 +116,7 @@
   transition: 0.2s;
 }
 
-.close:hover {
-  transform: scale(1.2);
-  color: #fff;
-}
+
 
 @keyframes fadeIn {
   from {
