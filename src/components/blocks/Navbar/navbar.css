@@ -67,8 +67,24 @@
   }
   
   .menu li:hover {
-   border-bottom: 2px solid #2563eb;
+   color: #2563eb;
       }
+
+      .menu li::after {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background: #2563eb;
+        transition: width 0.3s;
+      }
+      .menu li:hover::after {
+        width: 100%;
+      }
+
+
   
   .menu a{
     color: white;            
@@ -92,6 +108,9 @@
     color: white !important;
   }
   
+  .ALL::after {
+    display: none !important;
+  }
   /* Dropdown */
   .dropdown {
     position: relative;
